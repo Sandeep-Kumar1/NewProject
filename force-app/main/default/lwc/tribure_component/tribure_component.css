@@ -1,0 +1,76 @@
+.main_section{
+    background-color: white;
+    border: 10px, solid, rgb(3, 3, 31);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    width: 1500px;
+    padding :50px 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+img {
+    width: 350px;
+    border-radius: 50%;
+}
+.header_section{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+h1{
+    font-size: 80px;
+    color :rgb(5, 5, 65);
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    color: rgb(66, 6, 6);
+    font-weight: bold;
+    text-align: end;
+}
+.content_header{
+    box-sizing: border-box;
+    width: 1500px;
+    margin: auto;
+    padding :50px 100px;
+}
+h3{
+    font-size: 100px;
+    color: rgb(5, 5, 65);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content_header p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.bio_section{
+    margin-top : 40px;
+    margin-bottom: 40px;
+}
+
+.bio_section h1 {
+    font-size: 55px;
+    color :red
+}
+ul{
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    Margin : 30px
+}
+footer p {
+    display: flex;
+    float: right;
+    font-weight: bold;
+
+}
